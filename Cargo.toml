@@ -1,0 +1,18 @@
+[package]
+name = "wasm_bindgen_three"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wasm-bindgen = { version = "0.2", default-features = false }
+wasm-bindgen-futures = { version = "0.4", default-features = false }
+js-sys = { version = "0.3", default-features = false }
+web-sys = { version = "0.3", features = [
+	"HtmlCanvasElement",
+	"Event",
+	"HtmlElement",
+] }
+glam = { version = "0.30" }
+
+[features]
+default = []
