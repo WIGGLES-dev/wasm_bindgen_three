@@ -12,7 +12,6 @@ web-sys = { version = "0.3", features = [
 	"Event",
 	"HtmlElement",
 ] }
-glam = { version = "0.30" }
 
 [features]
 default = []
